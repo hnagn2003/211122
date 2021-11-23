@@ -1,0 +1,12 @@
+#include <bits/stdc++.h>
+using namespace std;
+void showClue (char* path){
+    string a;
+    ifstream file(path);
+    getline(file, a);
+    cout << a;
+}
+int main()
+{
+showClue("word.txt");
+}
